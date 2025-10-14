@@ -16,7 +16,7 @@ C = A;
 console.log("A="+A, "B="+B, "C="+C);*/
 
 
-let a = parseFloat(prompt("entrer un nomber"));
+/*let a = parseFloat(prompt("entrer un nomber"));
 let b = parseFloat( prompt("entrer un nombre"));
 let somme = a+b;
 let sostr = a-b;
@@ -25,7 +25,30 @@ let reste = a%b;
 console.log("la somme est:"+somme);
 console.log("la sostraction est:"+sostr);
 console.log("la multiplication est:"+mult);
-console.log("la reste est:"+reste);
+console.log("la reste est:"+reste);*/
+
+
+/*let A = parseFloat(prompt("entrer un nomber"));
+let B = parseFloat(prompt("entrer un nomber"));
+let C = parseFloat(prompt("entrer un nomber"));
+let D = parseFloat(prompt("entrer un nomber"));
+let somme = (A+B+C+D);
+let moyenne = somme/4;
+console.log ("la somme est:"+somme);
+console.log ("la moyenne est:"+moyenne);*/
+
+
+let distance = parseFloat(prompt("entrer la distance:"));
+let vitesse = parseFloat(prompt("entrer la vitesse:"));
+let temps = distance+vitesse;
+console.log("le temps de trajit est:"+temps);
+
+
+
+
+
+
+
 
 
 
